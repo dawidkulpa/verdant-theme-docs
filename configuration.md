@@ -81,7 +81,7 @@ Set up and tuned on **Admin › Player list**, and per egg and per server on the
 | The name in the sidebar (when no logo is set) and the browser tab | The panel's company name: **Admin › Settings › General** |
 | The default colour scheme | Dark. Each user switches between dark and light with the sun and moon button in the top bar; the browser remembers the choice. |
 | Who sees which servers | The panel's own permissions. Verdant shows only what the stock panel would show the same user. |
-| Language | Verdant's own texts are in English. |
+| Language | Verdant's own texts are in English for now. More languages will be added if customers need them. |
 
 ## What Verdant changes
 
