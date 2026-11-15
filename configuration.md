@@ -5,7 +5,7 @@ nav_order: 3
 
 # Configuration
 
-Verdant works as installed. Three theme settings let you brand it and turn the player list off; the player list
+Verdant works as installed. Four theme settings let you brand it and turn the player list off; the player list
 has its own settings in the admin area, and Verdant uses a few of the panel's own settings.
 
 ## Theme settings
@@ -41,7 +41,19 @@ Upload stores the image at once; **Remove** brings the leaf and name back. A wid
 works best, and should read on both a dark and a light background. The browser tab keeps the panel name.
 
 With Docker, add the volume from [Requirements](installation.md#requirements) first, or the logo is lost when the
-container is recreated.
+container is recreated. Or use **Logo URL** instead.
+
+### Logo URL
+
+| | |
+| --- | --- |
+| Default | Empty |
+| Accepts | An `https://` address of an image, up to 2048 characters |
+| Shown | Like an uploaded logo, which it replaces while it is filled |
+
+The image stays where you host it, so nothing is stored on the panel and Docker needs no extra volume. Every
+visitor's browser loads it from that address. If it does not load, the sidebar shows the leaf and the panel name.
+Addresses that do not start with `https://` are ignored.
 
 ### Player list
 

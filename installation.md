@@ -21,7 +21,8 @@ The player list is part of the same package, not a separate extension. It can be
   container, for example `docker compose exec panel php artisan …`.
 - The panel's `extensions` directory must be writable by the user that runs the commands.
 - With Docker, only if you upload a [logo](configuration.md#logo): the official compose file does not keep uploaded
-  files when the container is recreated. Add this volume to the panel service, then `docker compose up -d`:
+  files when the container is recreated. Add this volume to the panel service, then `docker compose up -d`, or give
+  the logo as a [Logo URL](configuration.md#logo-url) instead:
 
   ```yaml
   - "/srv/pterodactyl/extension-files:/app/storage/app/private/extension-files"

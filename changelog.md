@@ -5,9 +5,15 @@ nav_order: 6
 
 # Changelog
 
-## 0.5.0 (2026-11-15)
+## 0.5.1 (2026-11-15)
 
 First public release.
+
+- **Logo URL.** New theme setting: the https address of a logo hosted anywhere, used instead of an uploaded one.
+  It needs no Docker volume.
+- A logo that does not load shows the leaf and the panel name instead of a broken image.
+
+## 0.5.0 (2026-11-15)
 
 - **Accent colour.** New theme setting. The whole palette (buttons, links, navigation, charts, terminal accents,
   the leaf mark) takes the colour's hue in both schemes, with lightness tuned per scheme for contrast. Empty means
