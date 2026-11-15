@@ -20,6 +20,12 @@ The player list is part of the same package, not a separate extension. It can be
 - Shell access to the panel, to run `php artisan`. With the official Docker image, run the commands inside the panel
   container, for example `docker compose exec panel php artisan …`.
 - The panel's `extensions` directory must be writable by the user that runs the commands.
+- With Docker, only if you upload a [logo](configuration.md#logo): the official compose file does not keep uploaded
+  files when the container is recreated. Add this volume to the panel service, then `docker compose up -d`:
+
+  ```yaml
+  - "/srv/pterodactyl/extension-files:/app/storage/app/private/extension-files"
+  ```
 - For the player list only: a node with one free allocation for the agent server, and Wings able to pull
   `ghcr.io/parkervcp/yolks:nodejs_22`. See [Player list](player-list.md#requirements).
 

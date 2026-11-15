@@ -40,6 +40,9 @@ and the console's own ANSI colours stay as the game prints them.
 Upload stores the image at once; **Remove** brings the leaf and name back. A wide logo with transparent background
 works best, and should read on both a dark and a light background. The browser tab keeps the panel name.
 
+With Docker, add the volume from [Requirements](installation.md#requirements) first, or the logo is lost when the
+container is recreated.
+
 ### Player list
 
 | | |
