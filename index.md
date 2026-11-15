@@ -37,16 +37,12 @@ reflow to the width of the window. Admins can show other users' servers.
 
 ![Server switcher]({{ '/assets/screenshots/05-switcher.png' | relative_url }})
 
-**Search.** The panel's server search, opening and closing with the same motion as every other dialog.
-
-![Search]({{ '/assets/screenshots/06-search.png' | relative_url }})
-
-**Admin overview.** A tile per admin section with its count, the panel version and whether an update is out.
+**Admin overview.** A tile per admin section with its count.
 
 ![Admin overview]({{ '/assets/screenshots/07-admin-overview.png' | relative_url }})
 
 **Node details.** A node's About tab shows its status, allocated memory and disk against the node limit and its
-overallocation ceiling, the Wings version and system, and when the node can be deleted.
+overallocation ceiling, and the Wings version and system.
 
 ![Node details]({{ '/assets/screenshots/08-node.png' | relative_url }})
 

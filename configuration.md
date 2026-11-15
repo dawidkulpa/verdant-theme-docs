@@ -75,10 +75,9 @@ theme's colours, type and components.
 
 | Part | |
 | --- | --- |
-| App shell | Sidebar with the panel name, area navigation, server switcher and user; top bar with breadcrumbs, search and the scheme button |
+| App shell | Sidebar with the panel name, area navigation, server switcher and user; top bar with breadcrumbs and the scheme button |
 | Server console | Terminal filling the window, power buttons, resources column (CPU, memory, network, players, disk, uptime) |
 | Dashboard | Server cards with state, address, CPU, memory, disk and players; search; "Show others' servers" for admins |
-| Search | The search dialog, with the panel's dialog animation |
 | Server activity log and startup variables | Restyled lists |
 | Admin overview (`/panel`) | A tile per admin section with its count |
 | Admin › Nodes › a node › About | Status, allocated memory and disk against the node limit and overallocation, Wings and system, delete |
