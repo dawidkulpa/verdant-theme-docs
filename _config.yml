@@ -1,0 +1,29 @@
+title: Verdant
+description: A theme for Pterodactyl Panel 2.0 with a full-window console, live server cards, your logo and colour, and a player list for 300+ games.
+url: https://dawidkulpa.github.io
+baseurl: /verdant-theme-docs
+permalink: pretty
+
+remote_theme: just-the-docs/just-the-docs@v0.12.0
+color_scheme: dark
+search_enabled: true
+heading_anchors: true
+
+plugins:
+  - jekyll-remote-theme
+  - jekyll-relative-links
+  - jekyll-seo-tag
+
+relative_links:
+  enabled: true
+  collections: false
+
+aux_links:
+  "Support":
+    - "https://dawidkulpa.github.io/verdant-theme-docs/support/"
+aux_links_new_tab: false
+
+footer_content: "Verdant documentation. Not affiliated with the Pterodactyl project."
+
+exclude:
+  - README.md
